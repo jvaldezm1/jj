@@ -82,7 +82,21 @@ void case4(){
     getch();
     return;
 
+}
+
+void case5(){
+    int num1,num2;
+    int resta;
 
 
+    cout<<"ingrese un numero "<<endl;
+    cin>>num1;
 
+    cout<<"ingrese el segundo numero"<<endl;
+    cin>>num2;
+
+    resta=num1-num2;
+    cout<<"la resta de "<<num1<<"-"<<num2<<"es : "<<resta<<endl;
+    getch();
+    return;
 }

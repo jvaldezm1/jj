@@ -36,6 +36,9 @@ int main() {
             case 4: case4();
                 break;
 
+            case 5 : case5();
+                break;
+
         }
     return 0;
     }
