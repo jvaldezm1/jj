@@ -1,10 +1,11 @@
 #include <iostream>
 #include <conio.h>
-#include <fstream>
+#include "fstream"
+
 
 
 using namespace std;
-string texto;
+
 
 
 void case1(){
@@ -104,5 +105,12 @@ void case5(){
 }
 
 void case6(){
+    fstream archivo2;
+    archivo2.open("archivo2.txt", ios::out);
+    // escribir en el archivo
+    archivo2 << "Este es el contenido del archivo2.";
+    // cerrar el archivo
+    archivo2.close();
+    return;
 
 }
