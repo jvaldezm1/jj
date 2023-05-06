@@ -13,6 +13,7 @@ int main() {
         cout << "3. invertir posiciones " << endl;
         cout << "4. suma de numeros "<<endl;
         cout <<"5. resta de numeros "<<endl;
+        cout <<"6. creacion de varios documentos"<<endl;
         cout << "3. salir " << endl;
 
 
@@ -39,6 +40,9 @@ int main() {
                 break;
 
             case 5 : case5();
+                break;
+
+            case 6: case6();
                 break;
 
         }

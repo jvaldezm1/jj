@@ -1,8 +1,10 @@
 #include <iostream>
 #include <conio.h>
+#include <fstream>
 
 
 using namespace std;
+string texto;
 
 
 void case1(){
@@ -99,4 +101,8 @@ void case5(){
     cout<<"la resta de "<<num1<<"-"<<num2<<"es : "<<resta<<endl;
     getch();
     return;
+}
+
+void case6(){
+
 }
