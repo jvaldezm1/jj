@@ -66,3 +66,23 @@ void case3(){
     }
     return;
 }
+
+void case4(){
+    int num1,num2;
+    int suma ;
+
+    cout<<"ingrese el primer numero"<<endl;
+    cin>>num1;
+
+    cout<<"ingrese el segundo numero"<<endl;
+    cin>>num2;
+
+    suma=num1+num2;
+    cout<<"la suma de "<<num1<<"+"<<num2<<"es:"<<suma<<endl;
+    getch();
+    return;
+
+
+
+
+}
